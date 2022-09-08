@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // organizationName: "facebook", // Usually your GitHub org/user name.
-  // projectName: "docusaurus", // Usually your repo name.
+  organizationName: "mlfcnt", // Usually your GitHub org/user name.
+  projectName: "docuwiki", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -36,8 +36,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/mlfcnt/docuwiki",
         },
         blog: {
           showReadingTime: true,
@@ -74,17 +73,17 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Helpers",
-                to: "/docs/helpers",
-              },
-            ],
-          },
+          // {
+          //   title: "Docs",
+          //   items: [
+          //     {
+          //       label: "Helpers",
+          //       to: "/docs/helpers",
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WIKI DEV, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

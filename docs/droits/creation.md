@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Création
@@ -20,7 +20,7 @@ bash scripts/createNewRight.sh
 bash scripts/createNewRight.sh
 ```
 
-2- Faire un DTG coté airpack
+2- Faire une DTG coté airpack
 
 3- ???
 
